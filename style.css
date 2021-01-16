@@ -1,0 +1,126 @@
+body{
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+}
+h1{
+    font-size: 70px;
+}
+h2{
+    font-size: 40px;
+}
+h3{
+    font-size: 30px;
+}
+p{
+    font-weight: 400;
+}
+.orange-highlight{
+    color: tomato;
+}
+.blue-highlight{
+    color: navy;
+}
+.brand{
+    padding: 10px;
+    margin: 10px;
+}
+.half-width{
+    width: 40%;
+    float: left;
+    margin-left: 5%;
+    padding-left: 2%;
+    padding-top: 2%;
+}
+.half-width img{
+    width: 100%;
+    margin-left: 0;
+}
+.nav-new{
+    float: right;
+}
+.navigation img{
+    width: 40%;
+}
+.navigation{
+    background-color: antiquewhite;
+    margin-bottom: none;
+}
+.top{
+    float: left;
+    background-color: antiquewhite;
+    padding: 5%;
+}
+.button-top{
+    height: 50px;
+}
+.button-top img{
+    width: 18%;
+}
+.card-bottom{
+    height: 50px;
+}
+.card-bottom img{
+    width: 20%;
+}
+.card-button{
+    float: left;
+}
+.img-border{
+    box-align: center;
+    border-radius: 5px;
+    height: 70%;
+    background-color: lightgrey;
+    margin: 10px;
+}
+#collection-ct{
+    height: 600px;
+    padding: 5%;
+}
+.find-collection{
+    box-shadow: 10px 10px 10px lightgray;
+    border-radius: 5px;
+    height: 50%;
+    width: 80%;
+    padding: 20px;
+}
+.find-collection img{
+    width: 20%;
+    margin-right: 50px;
+}
+.collection-img{
+    width: 100%;
+}
+#footer{
+    text-align: center;
+    color: #fff;
+    padding: 5%;
+    background-color: lightcoral;
+}
+.social-icon{
+    margin: 10px 15px;
+    color: white;
+}
+@media (max-width: 992px){
+    #footer{
+        margin-top: 50px;
+    }
+}
+@media (max-width: 768px){
+    #footer{
+        margin-top: 60%;
+    }
+    .find-collection{
+        width: 100%;
+    }
+}
+@media (max-width: 600px){
+    #footer{
+        margin-top: 80%;
+    }
+    .collection-img{
+        margin: 10%;
+    }
+    .find-collection{
+        width: 100%;
+    }
+}
