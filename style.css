@@ -27,10 +27,14 @@ p{
   z-index: 10;
 }
 .brand{
-    padding: 10px;
+    padding: 0px;
     margin: 10px;
+    padding-right: 65px;
+    margin-right: 65px;
     padding-bottom: 0;
-    padding-top: 0;
+}
+div{
+    display: block;
 }
 .half-width{
     width: 40%;
@@ -43,8 +47,14 @@ p{
     width: 100%;
     margin-left: 0;
 }
-.nav-new{
+.nav-new li
+{
+  padding: 0 10px;
+}
+.nav-new li a{
     float: right;
+    margin-left: 50px;
+    text-align: right;
 }
 .navigation img{
     width: 40%;
@@ -53,7 +63,6 @@ p{
     background-color: antiquewhite;
     margin-bottom: none;
     padding-bottom: 0;
-    padding-top: 0;
 }
 .top{
     float: left;
